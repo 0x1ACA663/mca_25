@@ -28,7 +28,6 @@ public class Fibonacci {
                 firstTerm = secondTerm;
                 secondTerm = nextTerm;
             }
-            System.out.println();
         }
         sc.close();
     }
