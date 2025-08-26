@@ -10,11 +10,13 @@ public class Fibonacci {
     int terms = sc.nextInt();
     sc.close();
 
-    int sum = fibonacci(terms);
-    System.out.printf("Fibonacci series upto %d terms:\n", terms);
+    String series = fibonacci(terms);
+    System.out.printf("Fibonacci series upto %d terms:\n", series);
   }
 
-  public static int fibonacci(int upto) {
+  public static String fibonacci(int upto) {
+    int sum = 0;
+    
     if (upto < 1) return 0;
     return upto + fibonacci(upto - 1);
   }
