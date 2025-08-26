@@ -1,17 +1,20 @@
+// 6. WAP to find the factorial of a number using while and do-while
 
 import java.util.Scanner;
 
-public class Factorial {
+public class FactorialWhile {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
+        sc.close();
 
         int factorial = num;
-        for (int i = num - 1; i > 0; i--) {
-            factorial *= i;
+        int i = num - 1;
+        while (i > 0) {
+            factorial *= i--;
         }
         System.out.println("Factorial: " + factorial);
     }
