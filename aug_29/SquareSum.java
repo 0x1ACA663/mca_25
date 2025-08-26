@@ -6,6 +6,7 @@ public class SquareSum {
 
     System.out.print("Enter a number: ");
     int num = sc.nextInt();
+    sc.close();
 
     int sum = 0;
     for (int i = 1; i <= num; i++) {
