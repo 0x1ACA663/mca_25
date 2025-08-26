@@ -6,6 +6,7 @@ public class RadiusArea {
 
     System.out.print("Enter Radius: ");
     int radius = sc.nextInt();
+    sc.close();
 
     double area = 3.14 * radius * radius;
 

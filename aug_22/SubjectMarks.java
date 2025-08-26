@@ -18,6 +18,7 @@ public class SubjectMarks {
 
     System.out.print("Enter subject 5 marks: ");
     int sub5 = sc.nextInt();
+    sc.close();
 
     int total = sub1 + sub2 + sub3 + sub4 + sub5;
     System.out.println("Total: " + total);

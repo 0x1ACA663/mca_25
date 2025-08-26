@@ -9,6 +9,7 @@ public class NumAdd {
 
     System.out.print("Enter number 2: ");
     var num2 = sc.nextInt();
+    sc.close();
 
     var sum = num1 + num2;
 

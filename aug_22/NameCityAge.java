@@ -12,6 +12,7 @@ public class NameCityAge {
 
     System.out.print("Enter Age: ");
     int age = sc.nextInt();
+    sc.close();
  
     System.out.println("Name: " + name);
     System.out.println("City: " + city);
