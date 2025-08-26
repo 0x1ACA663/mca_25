@@ -1,3 +1,5 @@
+// 1. WAP to find square of a number using a method.
+
 import java.util.Scanner;
 
 public class SquareNum {

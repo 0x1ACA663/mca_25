@@ -1,3 +1,5 @@
+// 2. WAP to find if a number is prime using a method.
+
 import java.util.Scanner;
 
 public class PrimeNum {
