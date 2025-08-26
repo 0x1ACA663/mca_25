@@ -6,6 +6,7 @@ public class MarkToGrade {
 
     System.out.print("Enter subject mark: ");
     int mark = sc.nextInt();
+    sc.close();
 
     System.out.print("Grade: ");
     if (mark > 89) {

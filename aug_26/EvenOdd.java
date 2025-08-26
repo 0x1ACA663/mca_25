@@ -6,6 +6,7 @@ public class EvenOdd {
 
     System.out.print("Enter an integer: ");
     int num = sc.nextInt();
+    sc.close();
 
     if ((num % 2) == 0) {
       System.out.println(num + " is even.");

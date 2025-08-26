@@ -12,6 +12,7 @@ public class LargestNum {
 
     System.out.print("Enter 3rd number: ");
     int num3 = sc.nextInt();
+    sc.close();
 
     if (num1 > num2 && num1 > num3) {
       System.out.println(num1 + " is the largest.");
