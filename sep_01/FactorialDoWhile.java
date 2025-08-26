@@ -1,4 +1,4 @@
-// 6. WAP to find the factorial of a number using do-while
+// 7. WAP to find the factorial of a number using do-while
 
 import java.util.Scanner;
 
