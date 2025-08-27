@@ -1,4 +1,4 @@
-// 2. WAP to calculate the sum ad average of array element.
+// 2. WAP to calculate the sum and average of array elements.
 
 public class SumAverage {
   public static void main(String[] args) {
