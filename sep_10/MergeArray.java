@@ -1,21 +1,31 @@
 import java.util.Arrays;
 
-public class MergeArray {
-  public static void main(String[] args) {
-    int[] arr1 = {5, 4, 6, 9};
-    int[] arr2 = {7, 1, 3, 2};
+public class MergeArrays {
 
-    int[] mergedArr = new int[arr1.length + arr2.length];
-    for (int i = 0; i < arr1.length; i++) {
-      mergedArr[i] = arr1[i];
-    }
-    for (int i = arr2.length; i < arr1.length + arr2.length; i++) {
-      mergedArr[i] = arr2[arr2.length - i];
+    public static int[] mergeArrays(int[] arr1, int[] arr2) {
+        int length1 = arr1.length;
+        int length2 = arr2.length;
+        int[] mergedArray = new int[length1 + length2];
+
+        // Copy first array
+        for (int i = 0; i < length1; i++) {
+            mergedArray[i] = arr1[i];
+        }
+
+        // Copy second array
+        for (int i = 0; i < length2; i++) {
+            mergedArray[length1 + i] = arr2[i];
+        }
+
+        return mergedArray;
     }
 
-    System.out.println("Arr1 = " + Arrays.toString(arr1));
-    System.out.println("Arr2 = " + Arrays.toString(arr2));
- 
-    System.out.println("MergedArray = " + Arrays.toString(mergedArr));
-  }
+    public static void main(String[] args) {
+        int[] array1 = {1, 3, 5};
+        int[] array2 = {2, 4, 6};
+
+        int[] merged = mergeArrays(array1, array2);
+
+        System.out.println("Merged Array: " + Arrays.toString(merged));
+    }
 }
