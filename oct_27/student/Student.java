@@ -1,6 +1,6 @@
 public class Student extends Grade {
-  private String name;
-  private int rollNo;
+  String name;
+  int rollNo;
   
   Student(String name, int rollNo, int marks) {
     this.name = name;
