@@ -1,6 +1,6 @@
-public class Student extends Grade {
-  String name;
-  int rollNo;
+public class Student extends Marks {
+  private String name;
+  private int rollNo;
   
   public Student(String name, int rollNo, int marks) {
     this.name = name;
@@ -15,16 +15,6 @@ public class Student extends Grade {
       rollNo,
       marks,
       calculateGrade()
-    );
-  }
-
-  @Override
-  public String toString() {
-    return String.format(
-      "Student(name=%s, rollNo=%i, marks=%i)",
-      name,
-      rollNo,
-      marks
     );
   }
 }

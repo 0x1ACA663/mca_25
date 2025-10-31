@@ -1,3 +1,3 @@
 public class Shape {
-  double area;
+  protected double area;
 }
