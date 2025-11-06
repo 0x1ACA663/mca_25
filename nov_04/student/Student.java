@@ -28,7 +28,7 @@ public class Student {
     double total_marks = 0;
     for (double mark : marks) total_marks += mark;
 
-    return total_marks / 5;
+    return (total_marks / 500 ) * 100;
   }
 
   public void showData() {
