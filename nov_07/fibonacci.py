@@ -1,10 +1,10 @@
-def fibonacci(max_terms, endl):
+def fibonacci(max_terms, seperator):
   first = 0
   second = 0
 
   for i in range(max_terms):
     sum = first + second
-    print(first, end=endl)
+    print(first, end=seperator)
     first = second + 1
     second = sum
 
