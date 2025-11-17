@@ -11,7 +11,7 @@ public class StudentList {
     stud_list.add(student);
   }
 
-  public void deleteStudent(Student student) {
-    stud_list.remove(student);
+  public void deleteStudentByRollNo(int rollNo) {
+    stud_list.removeIf(s -> s.getRollNo() == rollNo);
   }
 }
