@@ -7,7 +7,7 @@ void main() {
     new Student("Bhargav", 5)
   };
 
-  System.out.println("");
+  System.out.println("List of students:");
 
   for (Student stud : stud_list) {
     System.out.println("- " + stud);

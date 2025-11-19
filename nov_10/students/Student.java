@@ -7,6 +7,10 @@ public class Student {
     this.rollNo = rollNo;
   }
 
+  public void setName(String newName) {
+    this.name = newName;
+  }
+
   public String getName() {
     return name;
   }

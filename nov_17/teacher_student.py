@@ -9,7 +9,6 @@ class Student(Teacher):
     super().__init__(name, age)
     self.roll_no = roll_no
 
-
 stud = Student("Priyanuj", 22, 25)
 
 print("Student Name:", stud.name)
