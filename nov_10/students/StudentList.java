@@ -8,7 +8,7 @@ public class StudentList {
     stud_list = new ArrayList<>();
   }
 
-  ArrayList<Student> getStudList() {
+  public ArrayList<Student> getStudList() {
     return stud_list;
   }
 
